@@ -1,0 +1,275 @@
+body{
+    background-color: rgb(241, 216, 169);
+}
+
+h1{
+    text-align: center;
+}
+.first1{
+    display: flex;
+    flex-direction: row;
+    width: 572px;
+    margin-left: 400px;
+    margin-top: 41px;
+    justify-content: space-evenly;
+}
+.page{
+    font-size: 21px;
+    color: rgb(131, 6, 6);
+    margin-left: 540px;
+}
+.box1{
+    background-color: chartreuse;
+    height: 100px;
+    width: 100px;
+    animation-name:first;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes first{
+    25%{
+        transform:skewY(30deg)
+    }
+    75%{
+        transform: skewX(30deg);
+    }
+
+
+}
+span{
+    margin-top: 84px;
+
+}
+.box2{
+    background-color: rgb(158, 52, 158);
+    height: 100px;
+    width: 100px;
+    animation-name:second;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+.second{
+    display: flex;
+    flex-direction: row;
+    width: 572px;
+    margin-left: 400px;
+    margin-top: 61px;
+    justify-content: space-evenly;
+}
+
+@keyframes second{
+    100%{
+        transform: skewx(30deg);
+    }
+
+
+}
+.box3{
+    background-color: rgb(231, 231, 68);
+    height: 100px;
+    width: 100px;
+    animation-name:third;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+.third{
+    display: flex;
+    flex-direction: row;
+    width: 572px;
+    margin-left: 400px;
+    margin-top: 61px;
+    justify-content: space-evenly;
+}
+
+@keyframes third{
+    100%{
+        transform: rotate(360deg);
+    }
+
+
+}
+.box4{
+    background-color: rgb(21, 134, 21);
+    height: 75px;
+    width: 100px;
+    animation-name:fourth;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes fourth{
+    100%{
+        transform: scaley(2);
+    }
+}
+
+.box5{
+    background-color: rgb(224, 44, 44);
+    height: 100px;
+    width: 75px;
+    animation-name:fifth;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes fifth{
+    100%{
+        transform: scalex(2);
+    }
+}
+.box6{
+    background-color: rgb(19, 19, 155);
+    height: 100px;
+    width: 100px;
+    animation-name:six;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+}
+
+@keyframes six{
+    100%{
+        transform: rotate(180deg);
+    }
+}
+.fourth{
+    display: flex;
+    flex-direction: row;
+    width: 572px;
+    margin-left: 400px;
+    margin-top: 61px;
+    justify-content: space-evenly;
+}
+.boxy{
+    height: 106px;
+    width: 114px;
+    margin-top: 15px;
+    background-color: forestgreen;
+    transition: width 1s ease-in;
+    
+}
+.boxy:hover{
+    width: 260px;
+
+}
+.boxy2{
+    height: 106px;
+    width: 114px;
+    background-color: forestgreen;
+    transition: width height 1s ease-in;
+    
+}
+.boxy2:hover{
+    width: 260px;
+    height: 260px;
+}
+
+.main{
+    
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    justify-content: space-between;
+    width: 115px;
+}
+h1{
+    text-align: center;
+}
+.boxx1{
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    transition: width 2s ;
+    margin-top: 15px;
+}
+.main1{
+    margin-left: 540px;
+}
+.boxx1:hover{
+    width: 300px;
+    
+}
+.boxx2{
+height: 150px;
+width: 150px;
+background-color: aqua;
+transition: width 2s, height 2s;
+margin-top: 15px;
+}
+.boxx2:hover{
+    width:300px;
+    height:300px;
+}
+
+.boxx3{
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    transition: width 2s;
+    transition-timing-function: linear;
+    margin-top: 15px;
+    }
+.boxx3:hover{
+        width:300px;
+        }
+
+.boxx4{
+        height: 150px;
+        width: 150px;
+        background-color: aqua;
+        transition: width 2s;
+        transition-timing-function:ease;
+        margin-top: 15px;
+        }
+.boxx4:hover{
+        width:300px;
+            
+    }
+    
+.boxx5{
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    transition: width 2s ease-in;
+    margin-top: 15px;
+    }
+.boxx5:hover{
+        width:300px;
+        
+    }
+
+.boxx6{
+height: 150px;
+    width: 150px;
+    background-color: aqua;
+    transition: width 2s ease-out;
+    margin-top: 15px;
+    }
+    
+.boxx6:hover{
+    width:300px;
+            
+}
+    .boxx7{
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    transition: width 2s ease-in-out;
+    margin-top: 15px;
+}
+.boxx7:hover{
+    width: 300px;
+}
+a{
+    font-size: 21px;
+    font-weight: 700;
+    margin-left: 650px;
+    
+}
